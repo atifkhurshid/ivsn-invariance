@@ -54,7 +54,9 @@ CPU-only run, pass `--device cpu`.
 
 ## Model weights
 
-IVSN<sub>Gabor</sub> checkpoint is available in Releases (vgg_gist.pth). After cloning the repository, copy the available weights into:
+IVSN<sub>Gabor</sub> checkpoint is available in Releases (vgg_gist.pth). This model was trained on ImageNet with single-channel grayscale images (224 x 224) for 90 epochs with random center crop and horizontal flip augmentations. Final top-1 accuracy on ImageNet validation set was 67.67%.
+
+After cloning the repository, copy the available weights into:
 
 ```text
 codes/model_weights/

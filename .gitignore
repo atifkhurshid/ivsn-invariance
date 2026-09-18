@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+
+# Model checkpoints are distributed separately
+*.pth
+
+# Generated result tables
+*.csv
+
+# Generated experiment outputs
+codes/outputs/
+codes/results/
+codes/plots*/
+codes/analysis_plots/
+codes/logs/
+*.tar.gz
+
+# Local datasets
+codes/dataset/
+
+# Testing 
+testing*.ipynb

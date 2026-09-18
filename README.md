@@ -5,6 +5,8 @@ We assess how geometric and photometric transformations affect predicted gaze pa
 
 Atif Khurshid*, Matthias Kohn*, Heiko Neumann. "Invariance properties of predicted eye movements in visual search models." *European Conference on Eye Movements*. 2026.
 
+<small>*Equal contribution</small>
+
 ## Overview
 
 ![Methodology diagram.](assets/image-0.png)
